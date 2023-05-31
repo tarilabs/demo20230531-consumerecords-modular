@@ -1,0 +1,21 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>org.drools.demo</groupId>
+  <artifactId>demo20230531-consumerecords-modular</artifactId>
+  <version>1.0-SNAPSHOT</version>
+  <name>like demo20230530-consumerecords but modular</name>
+  <packaging>pom</packaging>
+
+  <properties>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    <maven.compiler.release>17</maven.compiler.release>
+    <drools-version>8.40.0-SNAPSHOT</drools-version>
+    <slf4j-version>1.7.30</slf4j-version>
+    <junit-version>4.13.1</junit-version>
+    <logback-version>1.2.9</logback-version>
+  </properties>
+
+  <modules>
+    <module>demo20230531-consumerecords</module>
+  </modules>
+</project>
